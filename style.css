@@ -1,0 +1,583 @@
+@charset "UTF-8";
+/**
+* Eric Meyer's Reset CSS v2.0
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input, textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section, time {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* meyerweb css reset end */
+
+textarea:focus, input:focus {
+  outline: 0;
+}
+
+input {
+  border-width: 0;
+}
+
+em {
+  font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.group:before,
+.group:after {
+  content: " ";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1; /* ie 6/7 */
+}
+
+embed,
+img,
+object,
+video {
+  max-width: 100%;
+}
+sup {
+  font-size: 58.3%;
+  vertical-align: text-top;
+}
+sub {
+  font-size: 58.3%;
+  vertical-align: text-bottom;
+}
+.no-space-between-inline-blocks {
+  *letter-spacing: normal; /*reset IE < 8*/
+  letter-spacing: -0.31em; /*webkit*/
+  word-spacing: -0.43em; /*IE < 8 && gecko*/
+}
+/*restore spacing on inner elements*/
+.no-space-between-inline-blocks > * {
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+.displace {
+  left: -5000px;
+  position: absolute;
+}
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+html {
+  font-size: 16px;
+}
+body {
+  min-width: 1300px;
+  color: #f4f5f5;
+  font-family: MyriadPro, serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+.global_container_ {
+  float: none;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  width: 100%; /* 1300px / 1300px = 100% */
+  background: #ffffff center 0;
+  background-position: center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.banner {
+  min-height: 1081px;
+  position: relative;
+  width: 100%; /* 1300px / 1300px = 100% */
+  background: url(images/sloi_4.png) no-repeat center 0;
+  background-position: center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.row-3 {
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  width: 1300px;
+}
+.sloi-7 {
+  float: left;
+}
+.text {
+  float: left;
+  margin: 1px 0 0 2px;
+  width: 333px;
+  font-size: 49.3762px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+.text-2 {
+  float: left;
+  margin: 38px 0 0 66px;
+  width: 373px;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+.text-3 {
+  float: left;
+  margin: 43px 0 0 4px;
+  width: 240px;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+.nav {
+  margin: -2px 0 0;
+  position: relative;
+  background: #473421;
+}
+.l-constrained {
+  height: 130px;
+  margin: 0 auto;
+  position: relative;
+  width: 1300px;
+}
+.figura-1-kopiya {
+  height: 127px;
+  left: 50%;
+  position: absolute;
+  top: 3px;
+  width: 3px;
+  background: #000000;
+  margin-left: 301px;
+}
+.figura-1-kopiya-2 {
+  height: 127px;
+  left: 50%;
+  position: absolute;
+  top: 2px;
+  width: 3px;
+  background: #000000;
+  margin-left: 36px;
+}
+.figura-1 {
+  height: 127px;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  width: 3px;
+  background: #000000;
+  margin-left: -287px;
+}
+.menu {
+  left: 50%;
+  position: absolute;
+  top: 37px;
+  width: 1093px;
+  list-style: none;
+  margin-left: -544px;
+}
+.menu li {
+  float: left;
+}
+.glavnaya {
+  font-weight: bold;
+  text-align: center;
+}
+.li-glavnaya {
+  margin: 0 136px 0 0;
+}
+.nashi-raboty {
+  font-weight: bold;
+  text-align: center;
+}
+.li-nashi-raboty {
+  margin: 0 35px 0 0;
+}
+.prais {
+  font-weight: bold;
+  text-align: center;
+}
+.li-prais {
+  margin: 0 128px 0 0;
+}
+.li-otzyvy {
+  margin: 5px 0 0;
+}
+.row {
+  margin: 6px auto 0;
+  position: relative;
+  width: 1300px;
+}
+.sloi-3 {
+  float: left;
+  margin: 0 -70px 0 0;
+  position: relative;
+}
+.col-5 {
+  float: left;
+  margin: 123px 0 0;
+  position: relative;
+  width: 701px;
+}
+.text-4 {
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+.sloi-5 {
+  display: block;
+  margin: 44px auto 0;
+}
+.pryamougolnik-2-holder {
+  left: 9px;
+  margin: 0 auto;
+  min-height: 38px;
+  position: relative;
+  width: 383px;
+  background: #7b7b7b;
+  background-position: center bottom;
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: center;
+}
+.main-content-wrapper {
+  position: relative;
+}
+.pryamougolnik-1-kopiya-holder {
+  overflow: hidden;
+  padding: 25px 0 53px;
+  position: relative;
+  background: #473421;
+}
+.pryamougolnik-7-holder {
+  margin: 0 auto;
+  min-height: 51px;
+  padding: 5px 22px 10px;
+  position: relative;
+  right: 12.5px;
+  width: 399px;
+  background: #ffffff;
+}
+.sloi-11 {
+  float: left;
+  margin: 0 4px 0 0;
+}
+.poisk {
+  margin: 2px 0 0;
+  width: 177px;
+  opacity: 0.52;
+  color: #291b0e;
+  font-weight: bold;
+  text-align: center;
+}
+.content {
+  height: 2674px;
+  margin: -15px 0 0;
+  position: relative;
+  width: 100%; /* 1300px / 1300px = 100% */
+}
+.pryamougolnik-1-kopiya-2 {
+  height: 129px;
+  left: 0;
+  max-width: 1298px;
+  position: absolute;
+  top: 1706px;
+  width: 100%;
+  background: #473421;
+}
+.col-2 {
+  left: 0;
+  padding: 23px 0 71px;
+  position: absolute;
+  top: 0;
+  width: 100%; /* 1300px / 1300px = 100% */
+  background: url(images/sloi_6.png) no-repeat center 0;
+  background-position: center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.l-constrained-2 {
+  margin: 0 auto;
+  padding: 0 10px;
+  position: relative;
+  width: 1300px;
+}
+.row-4 {
+  left: 2.5px;
+  margin: 0 auto;
+  position: relative;
+  width: 1275px;
+}
+.col-6 {
+  float: left;
+  position: relative;
+  width: 559px;
+}
+.pryamougolnik-3-holder {
+  min-height: 49px;
+  padding: 11px 0 3px;
+  position: relative;
+  background: #7b7b7b;
+}
+.text-6 {
+  text-align: center;
+}
+.text-6 > * {
+  text-align: center;
+}
+.sloi-10 {
+  display: block;
+  margin: 21px 0 0;
+}
+.col-7 {
+  float: right;
+  position: relative;
+  width: 591px;
+}
+.pryamougolnik-3-kopiya-holder {
+  min-height: 49px;
+  padding: 11px 0 3px;
+  position: relative;
+  background: #7b7b7b;
+}
+.text-7 {
+  text-align: center;
+}
+.text-7 > * {
+  text-align: center;
+}
+.sloi-9 {
+  display: block;
+  margin: 21px 0 0;
+}
+.pryamougolnik-4-holder {
+  margin: 12px auto 0;
+  min-height: 36px;
+  padding: 0 0 5px;
+  width: 588px;
+  background: #7b7b7b;
+  font-size: 30px;
+  text-align: center;
+}
+.application {
+  margin: 130px auto 0;
+  min-height: 1375px;
+  padding: 64px 69px;
+  position: relative;
+  width: 920px;
+  background: #7b7b7b;
+}
+.text-9 {
+  color: #291b0e;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+.text-10 {
+  margin: 58px 0 0 19px;
+  color: #291b0e;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.pryamougolnik-6-holder {
+  margin: 92px auto 0;
+  min-height: 124px;
+  padding: 38px 0 51px;
+  position: relative;
+  right: 9.5px;
+  width: 683px;
+  background: #ffffff;
+}
+.text-11 {
+  margin: 0 478px 0 0;
+  opacity: 0.47;
+  color: #473421;
+  font-weight: bold;
+  text-align: right;
+}
+.pryamougolnik-6-kopiya-holder {
+  margin: 110px auto 0;
+  min-height: 124px;
+  padding: 45px 0 44px;
+  position: relative;
+  right: 9.5px;
+  width: 683px;
+  background: #ffffff;
+}
+.telefon {
+  margin: 0 498px 0 0;
+  opacity: 0.47;
+  color: #473421;
+  font-weight: bold;
+  text-align: right;
+}
+.pryamougolnik-6-kopiya-2-holder {
+  margin: 81px 0 0;
+  min-height: 288px;
+  padding: 43px 0 211px;
+  position: relative;
+  width: 774px;
+  background: #ffffff;
+}
+.komentarii {
+  margin: 0 477px 0 0;
+  opacity: 0.47;
+  color: #473421;
+  font-weight: bold;
+  text-align: right;
+}
+.row-5 {
+  margin: 36px auto 0;
+  position: relative;
+  right: 36.5px;
+  width: 599px;
+}
+.pryamougolnik-skrugl-ugly-1 {
+  float: left;
+  height: 29px;
+  margin: 3px 4px 0 0;
+  width: 38px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+.text-12 {
+  width: 599px;
+  color: #291b0e;
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: center;
+}
+.pryamougolnik-6-kopiya-3-holder {
+  margin: 53px auto 0;
+  min-height: 124px;
+  padding: 30px 0 50px;
+  position: relative;
+  right: 12.5px;
+  width: 683px;
+  background: #ffffff;
+  color: #473421;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+.text-13 {
+  margin: 122px auto 0;
+  position: relative;
+  right: 377.5px;
+  width: 409px;
+  color: #fefefe;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+.text-14 {
+  margin: 65px auto 0;
+  position: relative;
+  right: 385.5px;
+  width: 403px;
+  color: #fefefe;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+.text-15 {
+  margin: 87px auto 0;
+  position: relative;
+  right: 391.5px;
+  width: 371px;
+  color: #fefefe;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+.footer {
+  height: 131px;
+  position: relative;
+  background: #473421;
+}
+.text-style {
+  font-family: Rockwell, serif;
+  font-weight: 800;
+}
