@@ -15,4 +15,4 @@ Disallow: /*/following
 
 
 
-Sitemap: https://jorinator49.github.io/username.github.io/%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B.html
+Sitemap: jorinator49.github.iousername.github.ioindex.html.xml
